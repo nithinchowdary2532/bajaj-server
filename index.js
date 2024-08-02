@@ -7,7 +7,7 @@ app.use(CORS());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const PORT = 5000;
+const PORT =process.env.PORT || 3000;
 
 const user_id = 'nithin_vakalapudi_02062004';
 const email = 'ns5625@srmist.edu.in';
